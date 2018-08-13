@@ -10,4 +10,4 @@ app.use(express.static(path.join(__dirname,'public')));
 
 app.get('/',(req,res) => res.render('index',{title: 'Index'}));
 
-app.listen(3001, () => console.log("PS Project Running on port 3000"));
+app.listen(3000, () => console.log("PS Project Running on port 3000"));
